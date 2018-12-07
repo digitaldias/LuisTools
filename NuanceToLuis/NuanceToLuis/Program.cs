@@ -12,7 +12,7 @@ namespace DigitalDias
 
         static void Main(string[] args)
         {
-            Console.WriteLine("Utterance Group Tester v1.0α");
+            Console.WriteLine("NuanceToLuis Tool v1.0α");
             Console.WriteLine("----------------------------");
 
             ConfigureLogger();
