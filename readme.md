@@ -1,6 +1,6 @@
 # LUIS Tools
 
-This repository aims to collect useful tools, scripts and other documentation to facilitate working with the  [Microsoft LUIS](https://luis.ai) cognitive service.
+This repository aims to collect useful tools, scripts and other documentation to facilitate working with the  [Microsoft LUIS](https://luis.ai) service.
 
 Current List of tools available: 
 
