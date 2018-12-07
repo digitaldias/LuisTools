@@ -1,15 +1,15 @@
 # NuanceToLuis
 For users of Nuance that are curious about how their models compare to Microsoft LUIS, you can use this tool to quickly export your Nuance models into a [LuDown](https://github.com/Microsoft/botbuilder-tools/tree/master/packages/Ludown) format for reviewing and converting to a working LUIS application. 
 
+## The tool will optimize it's output for LUIS 
+Utterances are handled differently between Nuance and LUIS. Whilst Nuance may require some example utterances where the only differences are the entity values, LUIS will make due with a single utterance containing an entity. Thus, during conversion, **NuanceToLuis** will remove duplicate utterances where the only differences are the sample entity values used.
+
 ## The suggested workflow is as follows: 
 - Export your models from Nuance into **.trsx** files
 - Convert the exported files to **.lu** using NuanceToLuis
 - Review the LuDown files before exporting
 - Convert the LuDown files into a LUIS friendly format using [LuDown](https://github.com/Microsoft/botbuilder-tools/tree/master/packages/Ludown)
 - Upload the final **.json** files to your LUIS workspace
-
-## The tool will optimize it's output for LUIS 
-Entities in Nuance and LUIS are handled differently. Whilst Nuance may require some example utterances, LUIS will make due with a single utternace containing an Entity. Thus, during conversion, **NuanceToLuis** will remove any duplicate utterances where the only difference is the sample entity used.
 
 ## PreRequisites
 In order to compile and run this tool you need to have a working **DotNet Core** installation on your machine (Windows, Mac, Linux are all ok for this). Installing and configuring DotNet core is beyond the scope of this document. *NuanceToLuis* was built using **dotnet core 2.1** for your reference.
@@ -39,4 +39,6 @@ The above example takes all .trsx files in the current folder and produces corre
 .lu files in the folder 'C:\temp\luDownFiles'. Intents named 'NO_INTENT' or intents
 starting with 'GLOBAL_' will be ignored.
 
+## Collaboration
+If you have LUIS Related tools that you'd like to add to this repository, simply reach out to the repo owner. We require pull requests for merging into master, but beyond that, we're quite flexible.
 
