@@ -39,6 +39,9 @@ The above example takes all .trsx files in the current folder and produces corre
 .lu files in the folder 'C:\temp\luDownFiles'. Intents named 'NO_INTENT' or intents
 starting with 'GLOBAL_' will be ignored.
 
-## Collaboration
-If you have LUIS Related tools that you'd like to add to this repository, simply reach out to the repo owner. We require pull requests for merging into master, but beyond that, we're quite flexible.
+## Collaborating
+If you'd like to collaborate on this project, simply reach out for an invite. The rules for collaboration are: 
+- Branches should be named after your username, i.e. "**digitaldias/nuancetoluis_footbar**"
+- Please follow [this guideline](https://chris.beams.io/posts/git-commit/) for commit messages. They matter!
+- The master branch does not accept direct commits. All commits require a pull request. 
 
