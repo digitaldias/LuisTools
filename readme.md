@@ -6,4 +6,4 @@ Current List of tools available:
 
 | tool | description |
 | ---- | ----------- |
-| [NuanceToLuis](https://github.com/digitaldias/LuisTools/NuanceToLuis) | Tool for converting Nuance models to LuDown | 
+| [NuanceToLuis](https://github.com/digitaldias/LuisTools/tree/master/NuanceToLuis) | Tool for converting Nuance models to LuDown | 
