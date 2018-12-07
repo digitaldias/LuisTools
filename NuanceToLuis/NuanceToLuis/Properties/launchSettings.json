@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "NuanceToLuis": {
+      "commandName": "Project",
+      "commandLineArgs": "-o C:\\temp\\luDownFiles -f \"NO_INTENT\" -i \"*.trsx\""
+    }
+  }
+}
