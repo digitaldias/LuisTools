@@ -17,7 +17,7 @@ In order to compile and run this tool you need to have a working **DotNet Core**
 ### Building a Release version of the tool
 Navigate to your cloned folder, change directory to the base folder for the NuanceToLuis solution and type: 
 <pre>
-   C:\code\LuisTools\NuanceToLuis> dotnet build digitaldias.sln --configuration Release
+   C:\code\LuisTools\NuanceToLuis> dotnet build LuisTools.sln --configuration Release
 </pre>
 Of course, if you are using Visual Studio, you simply right-click the project and selecct build.
 The *-configuration* parameter is optional. If left blank, the dotnet instruction will default to **Debug** build.
