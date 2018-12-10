@@ -1,11 +1,11 @@
-﻿using DigitalDias.Domain.Contracts;
-using DigitalDias.Domain.Entities;
+﻿using LuisTools.Domain.Contracts;
+using LuisTools.Domain.Entities;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Xml.Linq;
 
-namespace DigitalDias.Business
+namespace LuisTools.Business
 {
     public class LuDownMaker : ILuDownMaker
     {

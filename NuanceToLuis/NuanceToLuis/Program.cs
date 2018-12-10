@@ -1,10 +1,10 @@
-﻿using DigitalDias.DependenyInversion;
-using DigitalDias.Domain.Contracts;
-using DigitalDias.Domain.Entities;
+﻿using LuisTools.DependenyInversion;
+using LuisTools.Domain.Contracts;
+using LuisTools.Domain.Entities;
 using StructureMap;
 using System;
 
-namespace DigitalDias
+namespace LuisTools
 {
     class Program
     {

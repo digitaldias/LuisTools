@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace DigitalDias.Domain.Contracts
+namespace LuisTools.Domain.Contracts
 {
     public interface IFileFinder
     {

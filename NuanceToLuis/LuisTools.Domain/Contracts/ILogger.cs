@@ -1,8 +1,8 @@
-﻿using DigitalDias.Domain.Entities;
+﻿using LuisTools.Domain.Entities;
 using System;
 using System.Runtime.CompilerServices;
 
-namespace DigitalDias.Domain.Contracts
+namespace LuisTools.Domain.Contracts
 {
 
     public interface ILogger

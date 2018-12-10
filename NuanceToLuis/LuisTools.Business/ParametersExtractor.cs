@@ -1,11 +1,11 @@
-﻿using DigitalDias.Domain.Contracts;
-using DigitalDias.Domain.Entities;
+﻿using LuisTools.Domain.Contracts;
+using LuisTools.Domain.Entities;
 using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 
-namespace DigitalDias.Business
+namespace LuisTools.Business
 {
     public class ParametersExtractor : IParametersExtractor
     {

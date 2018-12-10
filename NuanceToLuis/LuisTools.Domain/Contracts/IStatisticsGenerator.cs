@@ -1,6 +1,6 @@
-﻿using DigitalDias.Domain.Entities;
+﻿using LuisTools.Domain.Entities;
 
-namespace DigitalDias.Domain.Contracts
+namespace LuisTools.Domain.Contracts
 {
     public interface IStatisticsGenerator
     {

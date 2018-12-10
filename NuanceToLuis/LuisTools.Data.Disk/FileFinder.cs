@@ -1,9 +1,9 @@
-﻿using DigitalDias.Domain.Contracts;
+﻿using LuisTools.Domain.Contracts;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 
-namespace DigitalDias.Data.File
+namespace LuisTools.Data.Disk
 {
     public class FileFinder : IFileFinder
     {

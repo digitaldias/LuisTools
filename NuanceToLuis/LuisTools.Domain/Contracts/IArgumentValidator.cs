@@ -1,4 +1,4 @@
-﻿namespace DigitalDias.Domain.Contracts
+﻿namespace LuisTools.Domain.Contracts
 {
     public interface IArgumentValidator
     {

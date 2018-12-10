@@ -11,9 +11,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Digitaldias.Business\DigitalDias.Business.csproj" />
-    <ProjectReference Include="..\DigitalDias.Data.File\DigitalDias.Data.File.csproj" />
-    <ProjectReference Include="..\DigitalDias.Domain\DigitalDias.Domain.csproj" />
+    <ProjectReference Include="..\LuisTools.Business\LuisTools.Business.csproj" />
+    <ProjectReference Include="..\LuisTools.Data.Disk\LuisTools.Data.Disk.csproj" />
+    <ProjectReference Include="..\LuisTools.Domain\LuisTools.Domain.csproj" />
   </ItemGroup>
 
 </Project>

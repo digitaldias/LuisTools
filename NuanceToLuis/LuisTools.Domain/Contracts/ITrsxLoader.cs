@@ -1,6 +1,6 @@
 ﻿using System.Xml.Linq;
 
-namespace DigitalDias.Domain.Contracts
+namespace LuisTools.Domain.Contracts
 {
     public interface ITrsxLoader
     {

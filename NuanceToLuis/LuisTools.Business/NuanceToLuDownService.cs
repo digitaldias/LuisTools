@@ -1,11 +1,11 @@
-﻿using DigitalDias.Domain.Contracts;
-using DigitalDias.Domain.Entities;
+﻿using LuisTools.Domain.Contracts;
+using LuisTools.Domain.Entities;
 using System.Collections.Concurrent;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace DigitalDias.Business
+namespace LuisTools.Business
 {
     public class NuanceToLuDownService : INuanceToLuDownService
     {

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace DigitalDias.Domain.Contracts
+namespace LuisTools.Domain.Contracts
 {
     public interface IExceptionHandler
     {

@@ -1,8 +1,8 @@
-﻿using DigitalDias.Domain.Contracts;
-using DigitalDias.Domain;
+﻿using LuisTools.Domain.Contracts;
+using LuisTools.Domain;
 using StructureMap;
 
-namespace DigitalDias.DependenyInversion
+namespace LuisTools.DependenyInversion
 {
     public class RuntimeRegistry : Registry
     {

@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace DigitalDias.Domain.Entities
+namespace LuisTools.Domain.Entities
 {
     public class FileStatistic
     {

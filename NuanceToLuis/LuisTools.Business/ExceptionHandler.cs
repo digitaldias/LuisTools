@@ -1,7 +1,7 @@
-﻿using DigitalDias.Domain.Contracts;
+﻿using LuisTools.Domain.Contracts;
 using System;
 
-namespace DigitalDias.Business
+namespace LuisTools.Business
 {
     public class ExceptionHandler : IExceptionHandler
     {

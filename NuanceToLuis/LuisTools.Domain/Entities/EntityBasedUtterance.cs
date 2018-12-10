@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Diagnostics;
 
-namespace DigitalDias.Domain.Entities
+namespace LuisTools.Domain.Entities
 {
     [DebuggerDisplay("{EntityStrippedText}")]
     public class EntityBasedUtterance : IComparable

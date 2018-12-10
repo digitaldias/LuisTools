@@ -1,10 +1,10 @@
-﻿using DigitalDias.Domain.Contracts;
-using DigitalDias.Domain.Entities;
+﻿using LuisTools.Domain.Contracts;
+using LuisTools.Domain.Entities;
 using System.IO;
 using System.Linq;
 using System.Text;
 
-namespace DigitalDias.Business
+namespace LuisTools.Business
 {
     public class StatisticsGenerator : IStatisticsGenerator
     {

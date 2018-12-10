@@ -1,4 +1,4 @@
-﻿namespace DigitalDias.Domain.Entities
+﻿namespace LuisTools.Domain.Entities
 {
     public enum LogLevel : int
     {

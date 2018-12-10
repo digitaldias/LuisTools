@@ -1,8 +1,8 @@
-﻿using DigitalDias.Domain.Contracts;
+﻿using LuisTools.Domain.Contracts;
+using System.IO;
 using System.Xml.Linq;
-using FI = System.IO;
 
-namespace DigitalDias.Data.File
+namespace LuisTools.Data.Disk
 {
     public class TrsxLoader : ITrsxLoader
     {
@@ -17,7 +17,7 @@ namespace DigitalDias.Data.File
         {
             _logger.Enter(this, args: fileName);
 
-            var fileContent = FI.File.ReadAllText(fileName);
+            var fileContent = File.ReadAllText(fileName);
             return XElement.Parse(fileContent);
         }
     }
