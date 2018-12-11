@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="NBuilder" Version="6.0.0" />
     <PackageReference Include="StructureMap.AutoMocking.Moq.Updated" Version="1.0.2" />
   </ItemGroup>
 

@@ -1,5 +1,7 @@
-﻿using Moq;
+﻿using FizzWare.NBuilder;
+using Moq;
 using StructureMap.AutoMocking.Moq;
+using System;
 
 namespace LuisTools.CrossCutting.UnitTesting
 {
@@ -9,14 +11,21 @@ namespace LuisTools.CrossCutting.UnitTesting
 
         protected MoqAutoMocker<TInstance> AutoMock { get; set; }
 
+        protected RandomGenerator _randomGenerator;
+
         public TestsFor()
         {
+            _randomGenerator = new RandomGenerator((int)DateTime.Now.Ticks);
             AutoMock = new MoqAutoMocker<TInstance>();
 
             BeforeTestRun();
 
             Instance = AutoMock.ClassUnderTest;
+
+
         }
+
+        public RandomGenerator Random => _randomGenerator;
 
         protected virtual void BeforeTestRun(){
             // No code
