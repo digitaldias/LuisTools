@@ -9,7 +9,8 @@ namespace LuisTools.Business.Tests
 {
     public class ExceptionHandlerTests : TestsFor<ExceptionHandler>
     {
-        [Fact]
+        [Fact]        
+        [Trait("TestCategory", "BusinessLogic")]
         public void Get_UnsafeFunctionIsNull_ReturnsDefault()
         {
             // Arrange
@@ -61,7 +62,7 @@ namespace LuisTools.Business.Tests
             Instance.Run(nullAction);
 
             // Assert
-            GetMockFor<ILogger>().Verify(logger => logger.Warning(It.IsAny<string>()), Times.Once());
+            GetMockFor<ILogger>().Verify(logger => logger.Warning(Any<string>()), Times.Once());
         }
 
         [Fact]

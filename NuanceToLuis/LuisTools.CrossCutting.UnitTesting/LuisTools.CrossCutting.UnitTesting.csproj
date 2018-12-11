@@ -2,11 +2,13 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
+    <Platforms>AnyCPU;x86</Platforms>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="NBuilder" Version="6.0.0" />
     <PackageReference Include="StructureMap.AutoMocking.Moq.Updated" Version="1.0.2" />
+    <PackageReference Include="xunit" Version="2.4.0" />
   </ItemGroup>
 
 </Project>

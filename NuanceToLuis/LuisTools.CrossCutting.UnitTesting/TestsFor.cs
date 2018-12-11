@@ -35,5 +35,10 @@ namespace LuisTools.CrossCutting.UnitTesting
         {
             return Mock.Get(AutoMock.Get<TContract>());
         }
+
+        public TContract Any<TContract>()
+        {
+            return It.IsAny<TContract>();
+        }
     }
 }

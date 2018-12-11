@@ -33,7 +33,6 @@ namespace LuisTools.Business
                 _log.Warning("No outputFolder detected");
                 return false;
             }
-
             return true;
         }
     }
